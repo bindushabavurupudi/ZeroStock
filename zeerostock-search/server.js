@@ -22,7 +22,7 @@ async function loadInventory() {
   }
 }
 
-// await loadInventory();
+await loadInventory();
 
 // GET /search
 app.get('/search', (req, res) => {
@@ -63,10 +63,8 @@ app.get('/search', (req, res) => {
   });
 });
 
-loadInventory().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-    console.log(`Loaded ${inventory.length} inventory items.`);
-    console.log(`API: http://localhost:${PORT}/search?q=laptop&category=electronics&minPrice=50&maxPrice=1000`);
-  });
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Loaded ${inventory.length} inventory items.`);
+  console.log(`API: http://localhost:${PORT}/search?q=laptop&category=electronics&minPrice=50&maxPrice=1000`);
 });
