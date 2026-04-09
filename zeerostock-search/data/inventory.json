@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name": "Laptop Dell XPS", "category": "electronics", "price": 1200, "description": "High-end laptop"},
+  {"id": 2, "name": "iPhone 14", "category": "electronics", "price": 999, "description": "Latest smartphone"},
+  {"id": 3, "name": "Wireless Mouse", "category": "electronics", "price": 25, "description": "Bluetooth mouse"},
+  {"id": 4, "name": "Cotton T-Shirt", "category": "clothing", "price": 15, "description": "Comfortable t-shirt"},
+  {"id": 5, "name": "Jeans Levi's", "category": "clothing", "price": 60, "description": "Classic blue jeans"},
+  {"id": 6, "name": "Winter Jacket", "category": "clothing", "price": 150, "description": "Warm insulated jacket"},
+  {"id": 7, "name": "Python Programming Book", "category": "books", "price": 40, "description": "Learn Python"},
+  {"id": 8, "name": "JavaScript Guide", "category": "books", "price": 35, "description": "Modern JS tutorial"},
+  {"id": 9, "name": "Office Chair", "category": "furniture", "price": 200, "description": "Ergonomic chair"},
+  {"id": 10, "name": "Desk Wood", "category": "furniture", "price": 180, "description": "Solid wood desk"},
+  {"id": 11, "name": "Bookshelf", "category": "furniture", "price": 90, "description": "5-shelf unit"},
+  {"id": 12, "name": "Headphones Sony", "category": "electronics", "price": 80, "description": "Noise-cancelling"}
+]
